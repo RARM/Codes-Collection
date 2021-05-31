@@ -12,6 +12,8 @@ Assume all programs comply with the following:
 
 If one program does not comply with these points (e.g., it requires other flags during compilation), that should be clear in a comment at the beginning of the source code.
 
+Inline comments are good practice. You may find comments in complicated algorithms or to clarify the purpose of a function. There will be also questions at the end of or through the source code to make the reader think about how to improve the code.
+
 ### Example
 Let's say you want to try the [dynamic_arr](C/dynamic_arr.c) C program. You need to have the GNU GCC (since this is a C program) installed. Download the source code, and run the following command (in the same folder where the source code is located) to compile:
 ```bash
