@@ -4,6 +4,10 @@
 // average, remove a specific number from the list, and clear the list
 // completely.
 
+// C++ allows handling the list with less complication. A similar
+// program (dynamic_list.cpp) written in C++ is available in the
+// C++ folder.
+
 #include <stdio.h>
 #include <stdbool.h>
 #include <stdlib.h>
@@ -173,7 +177,7 @@ int *remove_number(int *list, int *list_size)
         // Remove item.
         for (int i = item_to_remove; i < *list_size; i++)
             *(list + i - 1) = *(list + i);
-        
+
         list = (int*) realloc(list, (*list_size - 1) * sizeof(int));
         (*list_size)--;
         return list;
@@ -184,10 +188,10 @@ void print_list_or(int *list, int list_size)
 {
     printf("\n" "%10s | %10s\n", "Item", "Value");
     for (size_t i = 0; i < 23; i++) printf("-");
-    printf("\n");    
+    printf("\n");
     for (int i = 0; i < list_size; i++)
         printf("%10d | %10d\n", i + 1, *(list + i));
-    
+
     return;
 }
 
