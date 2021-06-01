@@ -37,5 +37,7 @@ In simple words, you are free to use these source codes (no need to attribute or
 
 All programs in this repository are under [this license](UNLICENSE) (unlicensed). You can read it. It is very short.
 
+Although you are not required to attribute, I would love to see if you have done something with these source codes (e.g., you used these in a How-To website). Feel free to email me (find my email in [my GitHub profile](https://github.com/RARM)).
+
 # Contribute
 If you want to add your program to this repository, improve a source code (for example, to comply with C and C++ standards), point any errors, improve documentation (for example, organizing the list of programs and descriptions), that is very much appreciated. Please, refer to the [CONTRIBUTING.md](CONTRIBUTING.md) file.
