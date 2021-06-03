@@ -1,5 +1,5 @@
 ---
-name: Program Request
+name: Program request
 about: Suggest an idea for a new program
 title: "[New Program Title]"
 labels: new program
