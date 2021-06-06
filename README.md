@@ -2,7 +2,7 @@
 This repository's purpose is to keep small programs in C and C++ (and probably Assembly in the future) that serve as examples for certain functionalities or algorithms.
 
 ## How to Use Programs
-Read the complete list of programs and descriptions [here](list.md). Once you find a  program that interests you, you can read through it or compile it to try. Programs only need the GNU Compiler (`gcc` for C and `g++` for C++).
+[Read the complete list of programs and descriptions here](list.md). Once you find a  program that interests you, you can read through it or compile it to try. Programs only need the GNU Compiler (`gcc` for C and `g++` for C++).
 
 Assume all programs comply with the following:
 1. They are cross-platform (work on Windows, Linux, and macOS).
